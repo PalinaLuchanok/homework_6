@@ -1,0 +1,49 @@
+/*logo*/
+
+.logo {
+    width: 100px;
+    height: 34px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(249, 32, 6);
+    border: 1px solid #ffffff;
+}
+
+.text {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 9px;
+    font-family: sans-serif;
+    transform: scaleY(4);
+    margin-top: 13px;
+}
+
+/*to-do-list*/
+
+.to-do-list {
+    margin-top: 50px;
+}
+
+.to-do-list-add {
+    cursor: pointer;
+}
+
+.to-do-list-clear {
+    cursor: pointer;
+}
+
+.list {
+    width: 400px;
+    list-style-type: none;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.to-do:nth-child(3n) {
+    color: #0039a6;
+    background-color: #e05206;
+}
